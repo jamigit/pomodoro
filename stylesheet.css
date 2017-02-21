@@ -1,0 +1,37 @@
+h1 {
+text-align: center;
+
+}
+html {
+  padding:0px;
+
+}
+
+
+#host {
+  margin: 0 auto;
+  width: 50%;
+}
+#optionsHost{
+  padding:0px;
+  margin: 0px;
+  border: 1px solid black;
+}
+
+#timerHost{
+    padding:0px;
+  border: 1px solid black;
+}
+
+
+
+.controls{
+  display: inline-block;
+  margin: 0 50px;
+}
+.arrow{
+  display: inline-block;
+}
+.counter{
+  display: inline-block;
+}
