@@ -1,6 +1,6 @@
 <!DOCTYPE html>
   <head>
-    <title> Pomodora Clock </title>
+    <title> Pomodoro Clock </title>
 
     <script src="http://code.jquery.com/jquery-latest.min.js" ></script>
     <script type = "text/javascript" src = "script.js"></script>
@@ -18,29 +18,30 @@
         <div id="optionsHost">
           <div class="controls"id="session">
             <h2> Session</h2>
-            <button class="arrow" id="sessionDown "type="button">Down</button>
-            <p class="counter" id ="sessionCounter"> 25:00</p>
+            <button class="arrow" id="sessionDown" type="button">Down</button>
+            <p class="counter" id ="sessionCounter"> 5</p>
+
             <button class="arrow" id="sessionUp" type="button">Up</button>
           </div>
           <div class="controls" id="break">
               <h2> Break </h2>
-              <button class="arrow" type="button">Down</button>
-              <p class="counter"> 25:00</p>
-              <button class="arrow" type="button">Up</button>
+              <button class="arrow" type="button" id="breakDown">Down</button>
+              <p class="counter" id="breakCounter"> 5</p>
+              <button class="arrow" type="button" id="breakUp">Up</button>
           </div>
           </div>
 
 
         <div id="timerHost">
           <div id ="timer">
-            <p>
-              25:00
+            <p id="timerText">
+
             </p>
           </div>
           <div id ="buttonHost">
-            <button type="button">Start </button>
-            <button type="button"> Pause </button>
-            <button type="button"> Stop and Reset </button>
+            <button type="button" id="timerStart">Start </button>
+            <button type="button" id="timerPause"> Pause </button>
+            <button type="button" id="timerReset"> Stop and Reset </button>
           </div>
         </div>
 
